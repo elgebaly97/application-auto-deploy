@@ -313,9 +313,9 @@ jobs:
       - img: cimg/base:stable
     steps:
       - slack/notify
-        event: pass
-        channel: project
-        template: success_tagged_deployment_1
+          event: pass
+          channel: project
+          template: success_tagged_deployment_1
 
             
 
