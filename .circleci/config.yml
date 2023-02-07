@@ -310,9 +310,9 @@ jobs:
 
   notify_on_success:
     docker:
-      - img: cimg/base
+      - img: cimg/base:stable
     steps:
-      - slack/notify
+      - slack/notify:
           event: pass
           channel: project
           template: success_tagged_deployment_1
